@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الحجز </title>
+    <link rel="stylesheet" href="h1.css">
+    <link rel="stylesheet" href="h2.css">
+    <link rel="stylesheet" href="h3.css">
+    <link rel="stylesheet" href="p.css">
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <html lang="ar">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>منتجع هول إن ون للجولف</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                    text-align: center;
+                }
+                header {
+                    background-color: #004d00;
+                    color: white;
+                    padding: 20px;
+                    font-size: 24px;
+                }
+                nav {
+                    background-color: #008000;
+                    padding: 15px;
+                }
+                nav a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 15px;
+                    margin: 10px;
+                    font-size: 18px;
+                }
+                .container {
+                    padding: 20px;
+                }
+                .button {
+                    background-color: #004d00;
+                    color: white;
+                    padding: 15px 25px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    border-radius: 5px;
+                    display: inline-block;
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                منتجع هول إن ون للجولف
+            </header>
+            <nav>
+                <a href="http://127.0.0.1:5500/helo%20in%20one.html">الرئيسية</a>
+                <a href="http://127.0.0.1:5500/%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%81%D9%82%20%D9%88%D8%A7%D9%84%D9%85%D8%B7%D8%A7%D8%B9%D9%85.html">المرافق</a>
+                <a href="http://127.0.0.1:5500/%D8%A7%D9%84%D8%AD%D8%B2%D9%85.html">الحزم</a>
+                <a href="http://127.0.0.1:5500/%D8%A7%D9%84%D8%AD%D8%AC%D8%B2.html">الحجز</a>
+                <a href="http://127.0.0.1:5500/%D8%A7%D9%84%D8%AF%D8%B9%D9%85.html">اتصل بنا</a>
+            </nav>
+        <h1>الحجز</h1>
+    
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام حجز المنتجع</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .progress-bar {
+            width: 100%;
+            background: #ddd;
+            margin: 20px 0;
+        }
+        .progress {
+            height: 20px;
+            background: #27ae60;
+            width: 0%;
+        }
+        .form-section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            background: #27ae60;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>نظام حجز المنتجع</h1>
+</header>
+
+<div class="container">
+    <div class="progress-bar">
+        <div class="progress" style="width: 25%;"></div>
+    </div>
+
+    <div class="form-section">
+        <h2>اختيار نوع الحجز</h2>
+        <label>
+            <input type="radio" name="booking-type" value="room-only"> حجز إقامة فقط
+        </label><br>
+        <label>
+            <input type="radio" name="booking-type" value="golf"> حجز جولات الجولف
+        </label><br>
+        <label>
+            <input type="radio" name="booking-type" value="package"> حجز باقة متكاملة
+        </label>
+    </div>
+
+    <div class="form-section">
+        <h2>تحديد التواريخ</h2>
+        <input type="date" name="check-in" required> إلى 
+        <input type="date" name="check-out" required>
+    </div>
+
+    <div class="form-section">
+        <h2>اختيار الخدمات الإضافية</h2>
+        <label>
+            <input type="checkbox" name="extra-service" value="training"> جلسة تدريب رقمية
+        </label><br>
+        <label>
+            <input type="checkbox" name="extra-service" value="transfer"> خدمة نقل من وإلى المطار
+        </label><br>
+        <label>
+            <input type="checkbox" name="extra-service" value="restaurant"> حجز طاولة في المطعم
+        </label>
+    </div>
+
+    <div class="form-section">
+        <h2>نظام دفع آمن</h2>
+        <button class="button">إتمام الدفع</button>
+    </div>
+
+
+
+    <div class="form-section">
+        <h2>دعم فوري للعملاء</h2>
+        <p>📞 دردشة مباشرة مع خدمة العملاء.</p>
+        <p>📧 إمكانية إرسال استفسار عبر البريد الإلكتروني.</p>
+            <a href="http://127.0.0.1:5500/%D8%A7%D9%84%D8%AD%D8%AC%D8%B2.html" class="button">احجز الآن</a>
+        </div>
+        <footer style="text-align: center; padding: 10px; background-color: #f1f1f1;">
+            <p>جميع الحقوق محفوظة &copy; <span id="year"></span></p>
+        </footer>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script> 
+        
+</body>
+</html>
